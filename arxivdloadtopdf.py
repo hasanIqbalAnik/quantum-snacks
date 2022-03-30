@@ -1,6 +1,6 @@
 import arxivpy
-from pylatex import Document, Section, Subsection, Command
-from pylatex.utils import italic, NoEscape
+from pylatex import Document, Subsection
+from pylatex.utils import  NoEscape
 
 def fill_document(query, doc):
 	articles = arxivpy.query(search_query=query, start_index=0,max_index=12,results_per_iteration=100,wait_time=5.0, sort_by='lastUpdatedDate')
