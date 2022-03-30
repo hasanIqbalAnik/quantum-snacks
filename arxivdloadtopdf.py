@@ -24,9 +24,7 @@ query3 = 'abs:%22entropic+uncertainty+relation%22'
 
 geometry_options = {"margin": "0.4in"}
 doc = Document(geometry_options=geometry_options)
-
 doc.change_document_style("empty")
-
 # geometry_options = {
 #     "landscape": True,
 #     "margin": "1.5in",
