@@ -1,5 +1,4 @@
 import arxivpy
-from fpdf import FPDF
 from pylatex import Document, Section, Subsection, Command
 from pylatex.utils import italic, NoEscape
 
