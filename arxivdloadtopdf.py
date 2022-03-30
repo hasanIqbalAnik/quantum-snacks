@@ -35,10 +35,6 @@ doc.change_document_style("empty")
     #     "headsep": "10pt",
     #     "includeheadfoot": True
     # }
-# doc.preamble.append(Command('title', 'Daily Quantum Cryptography Snacks'))
-# doc.preamble.append(Command('author', 'Everyone'))
-# doc.preamble.append(Command('date', NoEscape(r'\today')))
-# doc.append(NoEscape(r'\maketitle')))
 
 fill_document(query1, doc)
 fill_document(query2, doc)
