@@ -7,12 +7,12 @@ def fill_document(query, doc):
 	for article in articles:
 		try:
 			with doc.create(Subsection(NoEscape(article['title']))):
-					doc.append(NoEscape(r'\paragraph{}'))
-					doc.append(article['authors'])
-					doc.append('\n')
-					doc.append(article['update_date'])
-					doc.append('\n')
-					doc.append(NoEscape(article['abstract']))
+				doc.append(NoEscape(r'\paragraph{}'))
+				doc.append(article['authors'])
+				doc.append('\n')
+				doc.append(article['update_date'])
+				doc.append('\n')
+				doc.append(NoEscape(article['abstract']))
 					
 		except Exception as e:
 			print(e)
