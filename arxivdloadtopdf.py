@@ -27,14 +27,13 @@ doc = Document(geometry_options=geometry_options)
 
 doc.change_document_style("empty")
 
-
-    # geometry_options = {
-    #     "landscape": True,
-    #     "margin": "1.5in",
-    #     "headheight": "20pt",
-    #     "headsep": "10pt",
-    #     "includeheadfoot": True
-    # }
+# geometry_options = {
+#     "landscape": True,
+#     "margin": "1.5in",
+#     "headheight": "20pt",
+#     "headsep": "10pt",
+#     "includeheadfoot": True
+# }
 
 fill_document(query1, doc)
 fill_document(query2, doc)
