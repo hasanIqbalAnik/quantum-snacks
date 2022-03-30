@@ -23,7 +23,7 @@ query1='all:Quantum+AND+all:Cryptography+AND+abs:%22quantum+key+distribution%22'
 query2 = 'abs:%22quantum+information+theory%22'
 query3 = 'abs:%22entropic+uncertainty+relation%22'
 
-geometry_options = {"margin": "0.2in"}
+geometry_options = {"margin": "0.4in"}
 doc = Document(geometry_options=geometry_options)
 
 doc.change_document_style("empty")
